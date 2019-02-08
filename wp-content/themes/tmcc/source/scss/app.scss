@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Poppins');
+
+// 1. Your custom variables and variable overwrites.
+$global-font-family: 'Merriweather', serif;
+$base-heading-font-family: 'Poppins', sans-serif;
+$base-link-color: #e67e22;
+$base-link-hover-color: #e67e22;
+  // Blockquotes
+$base-blockquote-font-style: normal;
+
+// 2. Import default variables and available mixins.
+@import "../../node_modules/uikit/src/scss/variables.scss";
+@import "../../node_modules/uikit/src/scss/mixins.scss";
+
+// 3. Your custom mixin overwrites.
+  // Blockquotes
+@mixin hook-base-blockquote(){
+  border-left: solid 4px #ffffff;
+  padding-left: 1.5rem;
+  font-family: $base-heading-font-family;
+  font-size: $global-font-size;
+}
+  // form
+@mixin hook-form-single-line(){
+  background: none;
+  border-bottom: solid 1px $global-border;
+}
+@mixin hook-form-multi-line(){
+  background: none;
+  border-bottom: solid 1px $global-border;
+}
+
+// 4. Import UIkit.
+@import "../../node_modules/uikit/src/scss/uikit.scss";
+
+// Custom components
+@import "./components/Site/tmcc-header.scss";
+@import "./components/Home/home-hero.scss";
+@import "./components/Home/services-section.scss";
+@import "./components/Contact/contact-form.scss";
+@import "./components/Contact/background-image.scss";

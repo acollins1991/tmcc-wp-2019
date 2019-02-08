@@ -1,0 +1,80 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 30th January 2019 7:42 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.4
+WORDPRESS:	5.0.3
+PHP INFO:	7.2.11-4+ubuntu16.04.1+deb.sury.org+1 | SAPI: fpm-fcgi
+SERVER:		nginx/1.10.3 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 6MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+SQL CREATED: 20190130_themarketingcampaigncompany_0de8574351be059c3169_20190130194221_database.sql 
+SQL FILE SIZE: 541.14KB (554125) 
+SQL FILE TIME: 2019-01-30 19:42:28 
+SQL RUNTIME: 0.15 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/anthony/Sites/tmcc 
+ARCHIVE FILE: 20190130_themarketingcampaigncompany_0de8574351be059c3169_20190130194221_archive.zip 
+FILTERS: *ON* 
+DIRS:
+	/home/anthony/Sites/tmcc/wp-content/themes/tmcc/node_modules 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	53.58MB 
+STATS:	Dirs 463 | Files 2,627 
+SQL ADDED: 20190130_themarketingcampaigncompany_0de8574351be059c3169_20190130194221_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3090
+    [filename] => /home/anthony/Sites/tmcc/wp-snapshots/tmp/20190130_themarketingcampaigncompany_0de8574351be059c3169_20190130194221_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 17.37MB 
+ARCHIVE RUNTIME: 12.94 sec. 
+MEMORY STACK: 6MB 
+building installer 
+add_extra_files1 
+add_extra_files2 
+add_extra_files3 
+add_extra_files4 
+Doing archive file check 
+add_extra_files5 
+add_extra_files6 
+add_extra_files8 
+Successfully opened zip /home/anthony/Sites/tmcc/wp-snapshots/tmp/20190130_themarketingcampaigncompany_0de8574351be059c3169_20190130194221_archive.zip 
+Adding enhanced installer files to archive using ZipArchive 
+Installer files added to archive 
+Added to archive 
+After ziparchive close when adding installer 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 541.14KB 
+Installer File: 34.63KB 
+Archive File: 18.21MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 13.76 sec.
+PEAK PHP MEMORY USED: 6MB
+DONE PROCESSING => 20190130_themarketingcampaigncompany 30th January 2019 7:42 pm
+ 

@@ -1,0 +1,10 @@
+.tmcc-header {
+  &__logo {
+    img, svg {
+      max-height: 40px;
+    }
+  }
+  &__contact-link {
+      border-radius: 25px;
+  }
+}

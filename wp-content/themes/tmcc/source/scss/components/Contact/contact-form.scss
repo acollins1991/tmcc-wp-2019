@@ -1,0 +1,42 @@
+.tmcc-contact-form {
+  ::placeholder {
+    color: $base-link-color;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: $base-link-color;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: $base-link-color;
+  }
+  form {
+    input {
+      width:100%;
+    }
+  }
+  &__submit {
+    position:relative;
+    color: $base-link-color;
+    .wpcf7-submit {
+      color: $base-link-color;
+      font-size: 1.1rem;
+      padding-top: 5px;
+      padding-right: 30px;
+      background:none;
+      border:none;
+      outline:none;
+      cursor:pointer;
+
+      display:inline-block;
+      text-transform: uppercase;
+      text-align:right;
+    }
+  }
+  &__submit-icon {
+    position:absolute;
+    right:0;
+    top:0;
+  }
+}
