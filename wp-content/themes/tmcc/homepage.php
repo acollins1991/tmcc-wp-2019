@@ -28,7 +28,7 @@
 <div class="uk-section uk-section-secondary uk-light">
   <div class="uk-container">
     <div uk-grid>
-      <div class="uk-width-3-5">
+      <div class="uk-width-3-5@m">
         <h2>About Us</h2>
         <?php
 
@@ -50,7 +50,7 @@
       </div>
       <?php
         if ( get_field('about_image') ) {
-          echo '<div><img src="'.get_field( 'about_image' ).'"></div>';
+          echo '<div class="uk-visible@m"><img src="'.get_field( 'about_image' ).'"></div>';
         }
       ?>
     </div>
@@ -58,8 +58,8 @@
 </div>
 
 <div class="uk-section tmcc-services-section uk-container">
-  <div class="uk-flex uk-flex-right" uk-grid>
-    <div class="uk-width-1-2">
+  <div class="uk-flex uk-flex-right@m" uk-grid>
+    <div class="uk-width-1-2@m">
       <h2>Our Services</h2>
       <?php
         if( get_field('services_introduction') ) {
@@ -103,8 +103,8 @@
       $bg_image_two = get_field('services_image_two');
     }
   ?>
-  <div class="tmcc-services-section__background tmcc-services-section__background--one" role="display" style="background-image:url(<?php echo $bg_image_one; ?>);"></div>
-  <div class="tmcc-services-section__background tmcc-services-section__background--two" role="display" style="background-image:url(<?php echo $bg_image_two; ?>);"></div>
+  <div class="tmcc-services-section__background tmcc-services-section__background--one uk-visible@m" role="display" style="background-image:url(<?php echo $bg_image_one; ?>);"></div>
+  <div class="tmcc-services-section__background tmcc-services-section__background--two uk-visible@m" role="display" style="background-image:url(<?php echo $bg_image_two; ?>);"></div>
 </div>
 
 
@@ -113,7 +113,7 @@
       ?>
       <div class="uk-section uk-container uk-container-xsmall">
         <h2 class="uk-text-center">Who we've worked with</h2>
-        <div uk-grid class="uk-child-width-1-4">
+        <div uk-grid class="uk-child-width-1-2 uk-child-width-1-4@m">
       <?php
       while ( have_rows('clients') ) : the_row();
         echo '<div>';
