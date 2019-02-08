@@ -289,6 +289,54 @@
             ]
         },
         {
+            "key": "field_5c5df0a35fd2a",
+            "label": "Image One",
+            "name": "services_image_one",
+            "type": "image",
+            "instructions": "Tall background image",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 400,
+            "min_height": 300,
+            "min_size": "",
+            "max_width": 400,
+            "max_height": 300,
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5c5df0f45fd2b",
+            "label": "Image Two",
+            "name": "services_image_two",
+            "type": "image",
+            "instructions": "Tall background image",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 300,
+            "min_height": 600,
+            "min_size": "",
+            "max_width": 300,
+            "max_height": 600,
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_5c27bc5a41adb",
             "label": "Clients Section",
             "name": "",
@@ -417,5 +465,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1548875195
+    "modified": 1549661478
 }

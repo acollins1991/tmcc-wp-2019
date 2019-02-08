@@ -91,6 +91,20 @@
       ?>
     </div>
   </div>
+  <?php 
+    // $bg_image_one = if(get_field('services_image_one')) ? 'https://via.placeholder.com/400x300' : get_field('services_image_one');
+    // $bg_image_two = if(get_field('services_image_two')) ? 'https://via.placeholder.com/300x600' : get_field('services_image_two');
+    $bg_image_one = 'https://via.placeholder.com/400x300';
+    $bg_image_two = 'https://via.placeholder.com/300x600';
+    if( get_field('services_image_one') ) {
+      $bg_image_one = get_field('services_image_one');
+    }
+    if( get_field('services_image_two') ) {
+      $bg_image_two = get_field('services_image_two');
+    }
+  ?>
+  <div class="tmcc-services-section__background tmcc-services-section__background--one" role="display" style="background-image:url(<?php echo $bg_image_one; ?>);"></div>
+  <div class="tmcc-services-section__background tmcc-services-section__background--two" role="display" style="background-image:url(<?php echo $bg_image_two; ?>);"></div>
 </div>
 
 
